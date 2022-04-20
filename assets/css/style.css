@@ -37,9 +37,9 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 9999;
-  background: #d43076;
-  width: 40px;
-  height: 40px;
+  background: #FA893B ;
+  width: 60px;
+  height: 60px;
   border-radius: 50px;
   transition: all 0.4s;
 }
@@ -49,8 +49,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #db528c;
-  color: #fff;
+  background: black;
+  color: #FAAC3B;
+  border: 3px solid;
+  border-color: #FAAC3B;
 }
 .back-to-top.active {
   visibility: visible;
@@ -74,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6px 0;
   line-height: 1;
   font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
@@ -126,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #d43076;
+  color: #FAAC3B;
 }
 .navbar .dropdown ul {
   display: block;
@@ -153,8 +155,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #d43076;
+.navbar .navbar .dropdown ul .active:hover, .navbar .dropdown ul > a {
+  color: #FAC93B;
+}
+.navbar .dropdown ul a:hover  li:hover > a{
+  color: #FAC93B;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -277,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero5.jpg") top center;
   background-size: cover;
   padding: 0 15px;
 }
@@ -286,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #FAC93B;
 }
 #hero h2 {
   color: #eee;
@@ -298,12 +303,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started {
   font-size: 64px;
   transition: 0.5s;
-  color: #fff;
+  color: #FAC93B;
   height: 60px;
 }
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: #d43076;
+  color: white;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -420,7 +425,7 @@ section {
 .about .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #eeafca;
+  color: #FAAC3B;
   float: left;
   line-height: 0;
 }
@@ -499,7 +504,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #dd5a92;
+  background-color: #FAAC3B;
 }
 
 /*--------------------------------------------------------------
@@ -516,7 +521,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #d43076;
+  border-left: 2px solid #FAAC3B;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -553,7 +558,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #d43076;
+  border: 2px solid #FAAC3B;
 }
 
 /*--------------------------------------------------------------
@@ -581,7 +586,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #d43076;
+  background: #FAAC3B;
   height: 100%;
   border-radius: 0px;
 }
@@ -593,7 +598,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #d43076;
+  background: #FAAC3B;
   transition: all 0.3s ease-in-out;
 }
 .services .icon i {
@@ -621,7 +626,7 @@ section {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #d43076;
+  color: #FAAC3B;
 }
 @media (max-width: 768px) {
   .services .icon-box::before {
@@ -893,7 +898,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #d43076;
+  color: #FAAC3B;
   line-height: 0;
   padding: 8px 0;
   margin-right: 4px;
@@ -902,10 +907,10 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #d43076;
+  border: 1px solid #FAAC3B;
 }
 .contact .social-links a:hover {
-  background: #d43076;
+  background: #FAAC3B;
   color: #fff;
 }
 .contact .info {
@@ -913,7 +918,7 @@ section {
 }
 .contact .info i {
   font-size: 32px;
-  color: #d43076;
+  color: #FAAC3B;
   line-height: 0;
   margin-right: 15px;
 }
@@ -964,10 +969,10 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #d43076;
+  border-color: #FAAC3B;
 }
 .contact .php-email-form button[type=submit] {
-  background: #d43076;
+  background: #FA7E3B;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -975,7 +980,10 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #dd5a92;
+  background: white;
+  color: black;
+  border: 3px solid #18d26e;
+  border-color: #FAAC3B;
 }
 @-webkit-keyframes animate-loading {
   0% {
