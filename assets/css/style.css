@@ -458,9 +458,9 @@ section {
   color: #6b96be;
 }
 .about .image {
-  background: url("../pics/IMG_6968.jpg") center center no-repeat;
+  background: url("../pics/kijijipictures-0936.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 600px;
+  min-height: 700px;
 }
 @media (max-width: 991px) {
   .about .image {
